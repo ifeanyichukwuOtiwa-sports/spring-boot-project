@@ -33,7 +33,7 @@ public class BirthDayServiceImpl implements BirthDayService {
     }
 
     @Override
-    public String hetBirthDOW(final LocalDate birthDay) {
+    public String getBirthDOW(final LocalDate birthDay) {
         return birthDay.getDayOfWeek().toString();
     }
 

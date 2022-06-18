@@ -29,7 +29,7 @@ public class BirthDayController {
     @PostMapping("/dayOfWeek")
     public String getDayOfWeek(@RequestBody String birthdayString) {
         LocalDate birthday = birthDayService.getValidBirthday(birthdayString);
-        return birthDayService.hetBirthDOW(birthday);
+        return birthDayService.getBirthDOW(birthday);
     }
 
     @PostMapping("/chineseZodiac")

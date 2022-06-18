@@ -8,7 +8,7 @@ import java.time.LocalDate;
  */
 
 public interface BirthDayService {
-    String hetBirthDOW(LocalDate birthDay);
+    String getBirthDOW(LocalDate birthDay);
     String getChineseZodiac(LocalDate birthDay);
     String getStarSign(LocalDate birthDay);
 
